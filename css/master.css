@@ -1,27 +1,30 @@
 .card_gallery {
-  max-width: 1980px;
-  background-color: #ededed;
+  background-color: #EBEBEB;
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
   justify-content: center;
-  align-items: center;
 }
 
 .card_gallery .card {
-  height: 20vw;
-  max-height: 470px;
-  max-width: 660px;
-  width: 30vw;
+  height: 333px;
+  width: 500px;
   transition: background 0.8s;
   overflow: hidden;
   box-shadow: 0 0 1px black;
   display: flex;
   justify-content: center;
-  margin: 20px 10px 0px 10px;
+  margin: 0 10px 20px 10px;
   align-items: center;
   position: relative;
   background-size: 100%;
+}
+
+.card__wrapper {
+  max-width: 1560px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card0 {
@@ -56,13 +59,12 @@
   background-size: 110%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1600px) {
   .card_gallery .card {
-      width: 45vw;
-      height: 30vw;
+      width: 30vw;
+      height: 20vw;
   }
 }
-
 
 @media (max-width: 700px) {
   .card_gallery .card {
@@ -104,10 +106,10 @@
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-around;
-  background-color: #ededed;
+  background-color: #EBEBEB;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .news a {
@@ -119,6 +121,7 @@
 .news a p {
   text-align: center;
   font-family: Montserrat, Arial, sans-serif;
+  margin: 16px 0 0 0;
 }
 
 .news a img {
@@ -132,4 +135,18 @@
     width: 280px;
     height: 280px;
   }
+}
+
+.chapter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EBEBEB;
+}
+
+.chapter h1 {
+  max-width: 1560px;
+  width: 100%;
+  margin: 0;
+  padding: 60px 0 60px 20px;
 }
