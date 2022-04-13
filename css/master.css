@@ -1,0 +1,135 @@
+.card_gallery {
+  max-width: 1980px;
+  background-color: #ededed;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_gallery .card {
+  height: 20vw;
+  max-height: 470px;
+  max-width: 660px;
+  width: 30vw;
+  transition: background 0.8s;
+  overflow: hidden;
+  box-shadow: 0 0 1px black;
+  display: flex;
+  justify-content: center;
+  margin: 20px 10px 0px 10px;
+  align-items: center;
+  position: relative;
+  background-size: 100%;
+}
+
+.card0 {
+  background: url("img/section_kitchen.jpg") center center no-repeat;
+}
+.card1 {
+  background: url("img/section_kitchen.jpg") center center no-repeat;
+}
+.card2 {
+  background: url("img/section_kitchen.jpg") center center no-repeat;
+}
+.card3 {
+  background: url("img/section_kitchen.jpg") center center no-repeat;
+}
+.card4 {
+  background: url("img/section_kitchen.jpg") center center no-repeat;
+}
+.card5 {
+  background: url("img/section_kitchen.jpg") center center no-repeat;
+}
+.card6 {
+  background: url("img/section_kitchen.jpg") center center no-repeat;
+}
+.card7 {
+  background: url("img/section_kitchen.jpg") center center no-repeat;
+}
+.card8 {
+  background: url("img/section_kitchen.jpg") center center no-repeat;
+}
+
+.card:hover {
+  background-size: 110%;
+}
+
+@media (max-width: 1000px) {
+  .card_gallery .card {
+      width: 45vw;
+      height: 30vw;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .card_gallery .card {
+      width: 90vw;
+      height: 60vw;
+  }
+}
+
+.card_gallery .card h2 {
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 38px;
+  text-shadow: 0 0 4px black;
+  margin: 15px;
+  opacity: 1;
+  transition: opacity 1s;
+  z-index: 2;
+}
+
+.card_gallery .card:hover h2 {
+  color: #d5fe67;
+}
+
+.shadow {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  transition: 1s;
+}
+
+.shadow:hover {
+  background-color: rgba(0, 0, 0, .4);
+}
+
+
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: #ededed;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.news a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.news a p {
+  text-align: center;
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+.news a img {
+  width: 18vw;
+  height: 18vw;
+}
+
+@media (max-width: 900px) {
+
+  .news a img {
+    width: 280px;
+    height: 280px;
+  }
+}

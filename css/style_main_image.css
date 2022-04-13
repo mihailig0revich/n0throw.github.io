@@ -1,0 +1,29 @@
+
+  
+.title-block {
+    background: url("img/main_image.jpg") center center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-block .title {
+  position: absolute;
+  
+  font-size: 300%;
+  color: white;
+  text-align: center;
+  font-family: 'Lato';
+  letter-spacing: 5px;
+  
+}
+
+@media (max-width: 1020px) {
+  .title-block .title {
+    font-size: 4vw;
+  }
+}
+
+
