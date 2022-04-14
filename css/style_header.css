@@ -85,7 +85,7 @@ svg {
 }
 
 .navigation__link:hover svg {
-    fill: green;
+    fill: #44AF3A;
 }
 
 .navigation {
@@ -196,7 +196,7 @@ svg {
     height: 134px;
     right: 0;
     top: 0px;
-    background: rgba(0,0,0,.4);
+    background: rgba(20, 21, 21, .4);
     transition-property: background, height     ;
     transition-duration: .7s;
     transition-timing-function: ease-out;
@@ -256,7 +256,7 @@ svg {
 }
 #burger:checked + label + .burger__menu{
     height: 100%;
-    background: rgba(0,0,0,.8);
+    background: rgba(20, 21, 21, .8);
 }
 
 .burger__about {
@@ -428,12 +428,12 @@ svg {
 
 .informatoin__wrapper::-webkit-scrollbar {
     width: 3px;
-    background-color: #f9f9fd;
+    background-color: gray ;
 }
 
 .informatoin__wrapper::-webkit-scrollbar-thumb {
 border-radius: 10px;
-background-color: gray;
+background-color: #FEFEFE;
 }
 
 /* --------------- bottom header --------------- */
