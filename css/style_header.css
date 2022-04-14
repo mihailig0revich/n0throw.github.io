@@ -5,12 +5,12 @@ body {
 
 .header a {
     text-decoration: none;
-    color: white;
+    color: #FEFEFE;
     transition: color .3s;
 }
 
 .header a:hover {
-    color: #54af3a;
+    color: #44AF3A;
 }
 
 /* ---------------------------- Header ----------------------------- */
@@ -48,7 +48,7 @@ header * {
 svg {
     height: 18px;
     width: 18px;
-    fill: white;
+    fill: #FEFEFE;
     transition: fill .3s;
 }
 
@@ -68,7 +68,7 @@ svg {
 
 .phone__separator {
     vertical-align: middle;
-    color: white;
+    color: #FEFEFE;
 }
 
 .phone__image {
@@ -115,7 +115,7 @@ svg {
 	width: 20px;
 	height: 20px;
 	position: relative;
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid #FEFEFE;
 	box-sizing: border-box;
 	transition: all .5s;
 	cursor: pointer;
@@ -131,7 +131,7 @@ svg {
 	content: "";
 	display: block;
 	height: 2px;
-	background: white;
+	background: #FEFEFE;
 	transition: all .5s;
 }
 
@@ -143,7 +143,7 @@ svg {
 	content: "";
 	display: block;
 	height: 2px;
-	background: white;
+	background: #FEFEFE;
 	transition: transform .5s, width 2s;
 }
 
@@ -167,7 +167,7 @@ svg {
 	display: block;
 	width: 100%;
 	transform: rotate(45deg);
-	background: white;
+	background: #FEFEFE;
 	top: 100%;
 	margin-top: -55%;
 	left: 0;
@@ -179,7 +179,7 @@ svg {
 	display: block;
 	width: 100%;
 	transform: rotate(-45deg);
-	background: white;
+	background: #FEFEFE;
 	top: 100%;
 	margin-top: -55%;
 	left: 0;
@@ -221,14 +221,14 @@ svg {
 
 .burger__menu a {
     text-decoration: none;
-    color: white;
+    color: #FEFEFE;
 }
 
 .burger__menu li {
     display: block;
     text-decoration: none;
     padding: 5px 0 5px 0;
-    color: white;
+    color: #FEFEFE;
     opacity: 0;
     transition: opacity .5s ease-out;
 }
@@ -463,8 +463,8 @@ background-color: gray;
     text-align: center;
 }
 .bottom__btn {
-    background-color: #54af3a;
-    color: white;
+    background-color: #44AF3A;
+    color: #FEFEFE;
     border-radius: 3px;
     outline: none;
     border: none;
@@ -503,9 +503,10 @@ background-color: gray;
     left: 0;
     width: 380px;
     border-radius: 3px;
-    background-color: white;
+    background-color: #FEFEFE;
     padding-bottom: 20px;
     box-sizing: border-box;
+    
 }
 
 .modal__header {
@@ -522,7 +523,7 @@ background-color: gray;
     position: absolute;
     bottom: 20px;
     left: 20px;
-    color: white;
+    color: #FEFEFE;
     font-size: 30px;
     margin: 0;
 }
@@ -543,7 +544,7 @@ background-color: gray;
 
 .modal__list a {
     display: block;
-    color: black;
+    color: #141515;
 }
 
 .modal__list h5 {
@@ -564,7 +565,7 @@ background-color: gray;
 
 .modal__list a:hover {
     text-decoration: underline;
-    color: black;
+    color: #141515;
 }
 
 .modal__wrapper:hover .modal {
