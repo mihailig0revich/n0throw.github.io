@@ -1,5 +1,5 @@
 
-  
+
 .title-block {
     background: url("img/main_image.jpg") center center no-repeat;
     height: 100vh;
@@ -11,13 +11,13 @@
 
 .title-block .title {
   position: absolute;
-  
+
   font-size: 300%;
   color: #FEFEFE;
   text-align: center;
-  font-family: 'Lato';
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;;
   letter-spacing: 5px;
-  
+
 }
 
 @media (max-width: 1020px) {
@@ -25,5 +25,3 @@
     font-size: 4vw;
   }
 }
-
-

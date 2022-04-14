@@ -74,7 +74,7 @@
 }
 
 .card_gallery .card h2 {
-  font-family: Helvetica;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;;
   color: #FEFEFE;
   font-size: 38px;
   text-shadow: 0 0 4px #141515;
@@ -123,7 +123,7 @@
 
 .news a p {
   text-align: center;
-  font-family: Montserrat, Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 16px 0 0 0;
 }
 

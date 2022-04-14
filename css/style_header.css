@@ -17,7 +17,7 @@ body {
 
 header * {
     display: inline-block;
-    font-family: Montserrat, Arial, sans-serif;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header {
@@ -506,7 +506,7 @@ background-color: #FEFEFE;
     background-color: #FEFEFE;
     padding-bottom: 20px;
     box-sizing: border-box;
-    
+
 }
 
 .modal__header {
