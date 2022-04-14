@@ -1,5 +1,5 @@
 .card_gallery {
-  background-color: #EBEBEB;
+  background-color: #FEFEFE;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -75,9 +75,9 @@
 
 .card_gallery .card h2 {
   font-family: Helvetica;
-  color: #fff;
+  color: #FEFEFE;
   font-size: 38px;
-  text-shadow: 0 0 4px black;
+  text-shadow: 0 0 4px #141515;
   margin: 15px;
   opacity: 1;
   transition: opacity 1s;
@@ -85,8 +85,10 @@
 }
 
 .card_gallery .card:hover h2 {
-  color: #d5fe67;
+  color: #44AF3A;
 }
+
+/* #d5fe67 */
 
 .shadow {
   width: 100%;
@@ -97,7 +99,8 @@
 }
 
 .shadow:hover {
-  background-color: rgba(0, 0, 0, .4);
+  background-color: #141515;
+  opacity: .4;
 }
 
 
@@ -106,7 +109,7 @@
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-around;
-  background-color: #EBEBEB;
+  background-color: #FEFEFE;
   width: 100%;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -114,7 +117,7 @@
 
 .news a {
   text-decoration: none;
-  color: black;
+  color: #141515;
   display: block;
 }
 
@@ -141,7 +144,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #EBEBEB;
+  background-color: #FEFEFE;
 }
 
 .chapter h1 {
