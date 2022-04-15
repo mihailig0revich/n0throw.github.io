@@ -28,31 +28,31 @@
 }
 
 .card0 {
-  background: url("img/section_kitchen.jpg") center center no-repeat;
+  background: url("../img/section_kitchen.jpg") center center no-repeat;
 }
 .card1 {
-  background: url("img/section_kitchen.jpg") center center no-repeat;
+  background: url("../img/section_kitchen.jpg") center center no-repeat;
 }
 .card2 {
-  background: url("img/section_kitchen.jpg") center center no-repeat;
+  background: url("../img/section_kitchen.jpg") center center no-repeat;
 }
 .card3 {
-  background: url("img/section_kitchen.jpg") center center no-repeat;
+  background: url("../img/section_kitchen.jpg") center center no-repeat;
 }
 .card4 {
-  background: url("img/section_kitchen.jpg") center center no-repeat;
+  background: url("../img/section_kitchen.jpg") center center no-repeat;
 }
 .card5 {
-  background: url("img/section_kitchen.jpg") center center no-repeat;
+  background: url("../img/section_kitchen.jpg") center center no-repeat;
 }
 .card6 {
-  background: url("img/section_kitchen.jpg") center center no-repeat;
+  background: url("../img/section_kitchen.jpg") center center no-repeat;
 }
 .card7 {
-  background: url("img/section_kitchen.jpg") center center no-repeat;
+  background: url("../img/section_kitchen.jpg") center center no-repeat;
 }
 .card8 {
-  background: url("img/section_kitchen.jpg") center center no-repeat;
+  background: url("../img/section_kitchen.jpg") center center no-repeat;
 }
 
 .card:hover {
@@ -78,6 +78,7 @@
   color: #FEFEFE;
   font-size: 38px;
   text-shadow: 0 0 4px #141515;
+  text-align: center;
   margin: 15px;
   opacity: 1;
   transition: opacity 1s;

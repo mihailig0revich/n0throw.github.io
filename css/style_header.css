@@ -511,12 +511,57 @@ background-color: #FEFEFE;
 
 .modal__header {
     position: relative;
-    background: url("../img/news.jpg") center center no-repeat;
     background-size: 100%;
     width: 380px;
     height: 150px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+}
+
+/*
+ * Удалить потом
+*/
+.modal__header p {
+    background: rgba(20, 21, 21, .4);
+    border-radius: 10px;
+}
+
+.chapter {
+    border-left:4px solid #44AF3A;
+    padding-left:10px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chapter h1 {
+    color: #141515;
+}
+
+.modal__header_wardrobe {
+    background: url("../img/wardrobe_header.png") center center no-repeat;
+}
+
+.modal__header_livingroom {
+    background: url("../img/livingroom_header.png") center center no-repeat;
+}
+
+.modal__header_decor {
+    background: url("../img/decor_header.jpg") center center no-repeat;
+}
+
+.modal__header_kitchen {
+    background: url("../img/kitchen_header.png") center center no-repeat;
+}
+
+.modal__header_bedroom {
+    background: url("../img/bedroom_header.png") center center no-repeat;
+}
+
+.modal__header_partition {
+    background: url("../img/partition_header.png") center center no-repeat;
+}
+
+.modal__header_shelf {
+    background: url("../img/shelf_header.png") center center no-repeat;
 }
 
 .modal__header p {
