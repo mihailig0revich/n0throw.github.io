@@ -592,7 +592,7 @@ background-color: #FEFEFE;
     color: #141515;
 }
 
-.modal__list h5 {
+.list__title {
     display: block;
     margin: 20px 0 0 20px;
     font-size: 12px;

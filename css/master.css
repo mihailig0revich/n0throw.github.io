@@ -6,8 +6,8 @@
 }
 
 .card_gallery .card {
-  height: 333px;
-  width: 500px;
+  width: 21vw;
+  height: 14vw;
   transition: background 0.8s;
   overflow: hidden;
   box-shadow: 0 0 1px black;
@@ -20,7 +20,7 @@
 }
 
 .card__wrapper {
-  max-width: 90vw;
+  max-width: 95vw;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -57,13 +57,6 @@
 
 .card:hover {
   background-size: 110%;
-}
-
-@media (max-width: 2500px) {
-  .card_gallery .card {
-      width: 24vw;
-      height: 16vw;
-  }
 }
 
 @media (max-width: 1600px) {
