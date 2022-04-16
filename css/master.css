@@ -20,7 +20,7 @@
 }
 
 .card__wrapper {
-  max-width: 1560px;
+  max-width: 90vw;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -57,6 +57,13 @@
 
 .card:hover {
   background-size: 110%;
+}
+
+@media (max-width: 2500px) {
+  .card_gallery .card {
+      width: 24vw;
+      height: 16vw;
+  }
 }
 
 @media (max-width: 1600px) {
@@ -149,7 +156,7 @@
 }
 
 .chapter h1 {
-  max-width: 1560px;
+  max-width: 90vw;
   width: 100%;
   margin: 0;
   padding: 60px 0 60px 20px;
