@@ -6,8 +6,8 @@
 }
 
 .card_gallery .card {
-  height: 333px;
-  width: 500px;
+  width: 21vw;
+  height: 14vw;
   transition: background 0.8s;
   overflow: hidden;
   box-shadow: 0 0 1px black;
@@ -20,7 +20,7 @@
 }
 
 .card__wrapper {
-  max-width: 1560px;
+  max-width: 95vw;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -149,7 +149,7 @@
 }
 
 .chapter h1 {
-  max-width: 1560px;
+  max-width: 90vw;
   width: 100%;
   margin: 0;
   padding: 60px 0 60px 20px;
